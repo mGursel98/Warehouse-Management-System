@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="463.0" prefWidth="688.0" styleClass="owner" stylesheets="@../CSS/SobstvenikLogin.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Sobstvenik_Controller">
+    <top>
+        <MenuBar BorderPane.alignment="CENTER">
+            <menus>
+                <Menu mnemonicParsing="false" text="Добави">
+                    <items>
+                        <MenuItem fx:id="S_A_Panel" mnemonicParsing="false" onAction="#Add_Sklad_Panel" text="Склад" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Списък">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#Add_List_Of_Agents" text="С агенти" />
+                  <MenuItem mnemonicParsing="false" onAction="#Add_List_Of_Sklad" text="Със складове" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+</BorderPane>

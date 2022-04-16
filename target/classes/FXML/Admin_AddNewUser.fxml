@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="614.0" prefWidth="1009.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Admin_AddNewUserController">
+	<children>
+		<TableView fx:id="P_Table" layoutX="55.0" layoutY="19.0" prefHeight="450.0" prefWidth="923.0" AnchorPane.bottomAnchor="143.0" AnchorPane.leftAnchor="55.0" AnchorPane.rightAnchor="31.0" AnchorPane.topAnchor="21.0">
+			<columns>
+				<TableColumn fx:id="P_C_ID" prefWidth="95.19998931884766" text="ID" />
+				<TableColumn fx:id="P_C_Username" prefWidth="110.39999389648438" text="username" />
+				<TableColumn fx:id="P_C_Password" prefWidth="125.800048828125" text="password" />
+				<TableColumn fx:id="P_C_UserType" prefWidth="168.39999389648438" text="usertype" />
+				<TableColumn fx:id="P_C_FirstName" prefWidth="168.39999389648438" text="FirstName" />
+				<TableColumn fx:id="P_C_LastName" prefWidth="279.5999755859375" text="LastName" />
+			</columns>
+		</TableView>
+      <Button fx:id="addPotrebitelButton" layoutX="614.0" layoutY="585.0" mnemonicParsing="false" onAction="#Add_New_Potrebitel" prefHeight="31.0" prefWidth="151.0" text="Add " AnchorPane.bottomAnchor="27.799999999999955" />
+      <TextField fx:id="P_Username" layoutX="102.0" layoutY="515.0" prefHeight="31.0" prefWidth="266.0" promptText="username" AnchorPane.bottomAnchor="87.0" />
+      <TextField fx:id="P_Password" layoutX="465.0" layoutY="526.0" promptText="password" AnchorPane.bottomAnchor="87.0" />
+      <TextField fx:id="P_Usertype" layoutX="761.0" layoutY="526.0" promptText="usertype" AnchorPane.bottomAnchor="87.0" />
+      <TextField fx:id="P_FirstName" layoutX="102.0" layoutY="576.0" promptText="First Name" AnchorPane.bottomAnchor="37.0" />
+      <TextField fx:id="P_LastName" layoutX="385.0" layoutY="558.0" promptText="Last Name" AnchorPane.bottomAnchor="30.399999999999977" />
+      <Text layoutX="23.0" layoutY="530.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:" AnchorPane.bottomAnchor="92.0" />
+      <Text layoutX="677.0" layoutY="547.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usertype:" AnchorPane.bottomAnchor="92.0" />
+      <Text layoutX="291.0" layoutY="581.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name:" />
+      <Text layoutX="385.0" layoutY="547.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" AnchorPane.bottomAnchor="92.0" />
+      <Text layoutX="38.0" layoutY="597.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name:" AnchorPane.bottomAnchor="42.0" />
+		<!-- <Button fx:id="b_add" layoutX="1279.0" layoutY="517.0" mnemonicParsing="false" onAction="#add" text="Add" AnchorPane.bottomAnchor="96.0" />-->
+	</children>
+</AnchorPane>

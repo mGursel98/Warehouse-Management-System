@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="347.0" prefWidth="472.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Sobs_AddNewSkladController">
+<children>
+   <Text layoutX="130.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Размери:" />
+   <Text layoutX="126.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Описание:" />
+   <Text layoutX="141.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Град:" />
+   <Text layoutX="139.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Цена:" />
+   <TextField fx:id="S_razmeri" layoutX="193.0" layoutY="50.0" promptText="размери" />
+   <TextField fx:id="S_opis" layoutX="193.0" layoutY="95.0" promptText="описание" />
+   <TextField fx:id="S_grad" layoutX="193.0" layoutY="151.0" promptText="град" />
+   <TextField fx:id="S_cena" layoutX="193.0" layoutY="195.0" promptText="цена" />
+   <TextField fx:id="S_vid" layoutX="193.0" layoutY="239.0" promptText="вид на стока" />
+   <Button graphicTextGap="6.0" layoutX="192.0" layoutY="295.0" mnemonicParsing="false" onAction="#Add_New_Sklad" text="Добави склад" textOverrun="WORD_ELLIPSIS" wrapText="true" />
+      <Label layoutX="114.0" text="Добавяне на нов склад">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Text layoutX="139.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вид:" />
+</children>
+</AnchorPane>

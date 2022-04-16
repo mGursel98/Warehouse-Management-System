@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="621.0" prefWidth="676.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Sobstvenik_ListOfAgentsController">
+   <children>
+      <TableView fx:id="Table_OfAgents" layoutY="-144.0" prefHeight="603.0" prefWidth="644.0" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="23.0" AnchorPane.topAnchor="9.0">
+        <columns>
+          <TableColumn fx:id="Agent_ID" prefWidth="174.0" text="Agent_ID" />
+          <TableColumn fx:id="First_Name" prefWidth="222.0" text="First_Name" />
+            <TableColumn fx:id="Last_Name" prefWidth="243.0" text="Last_Name" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

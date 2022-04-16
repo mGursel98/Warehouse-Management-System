@@ -1,0 +1,4 @@
+.agentLogin{
+    -fx-background-image : url("Agent.jpg");;
+    -fx-background-size : 100% 100%;
+}

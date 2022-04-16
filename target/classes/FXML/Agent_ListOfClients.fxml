@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="621.0" prefWidth="834.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Agent_ListOfClientsController">
+   <children>
+      <TableView fx:id="Table_OfClients" layoutY="-144.0" prefHeight="603.0" prefWidth="825.0" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="9.0">
+        <columns>
+          <TableColumn fx:id="Client_ID" prefWidth="137.4000120162964" text="Клиент_ID" />
+          <TableColumn fx:id="C_FirstName" prefWidth="165.9999542236328" text="Име" />
+            <TableColumn fx:id="C_LastName" prefWidth="191.5999755859375" text="Фамилия" />
+            <TableColumn fx:id="C_Address" minWidth="0.0" prefWidth="168.79998779296875" text="Адрес" />
+            <TableColumn fx:id="C_Grad" maxWidth="1000.0" prefWidth="161.4000244140625" text="Град" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

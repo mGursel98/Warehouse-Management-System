@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="347.0" prefWidth="472.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Agent_AddNewFormController">
+<children>
+   <Text layoutX="130.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Период:" />
+   <Text layoutX="103.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Информация:" />
+   <Text layoutX="141.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Град:" />
+   <Text layoutX="139.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Цена:" />
+   <TextField fx:id="For_period" layoutX="193.0" layoutY="50.0" promptText="период" />
+   <TextField fx:id="For_info" layoutX="193.0" layoutY="95.0" promptText="информация(клиент)" />
+   <TextField fx:id="For_grad" layoutX="193.0" layoutY="151.0" promptText="град" />
+   <TextField fx:id="For_cena" layoutX="193.0" layoutY="202.0" promptText="цена" />
+   <Button graphicTextGap="6.0" layoutX="193.0" layoutY="259.0" mnemonicParsing="false" onAction="#Add_New_Form" text="Добави формуляр" textOverrun="WORD_ELLIPSIS" wrapText="true" />
+      <Label layoutX="114.0" text="Добавяне на нов формуляр">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+</children>
+</AnchorPane>

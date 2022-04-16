@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="347.0" prefWidth="472.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Admin_AddNewClientController">
+<children>
+   <Text layoutX="140.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Име:" />
+   <Text layoutX="126.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Фамилия:" />
+   <Text layoutX="134.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Адрес:" />
+   <Text layoutX="135.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Град:" />
+   <TextField fx:id="Name" layoutX="193.0" layoutY="50.0" promptText="Име" />
+   <TextField fx:id="LastName" layoutX="193.0" layoutY="95.0" promptText="Фамилия" />
+   <TextField fx:id="Address" layoutX="193.0" layoutY="151.0" promptText="Адрес" />
+   <TextField fx:id="Grad" layoutX="193.0" layoutY="195.0" promptText="Град" />
+   <Button graphicTextGap="6.0" layoutX="199.0" layoutY="246.0" mnemonicParsing="false" onAction="#Add_New_Client" text="Добави клиент" textOverrun="WORD_ELLIPSIS" wrapText="true" />
+      <Label layoutX="114.0" text="Добавяне на нов клиент">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+</children>
+</AnchorPane>
